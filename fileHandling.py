@@ -14,9 +14,9 @@ try:
     with open(new_filename, "w") as new_file:
         new_file.write(modified_content)
 
-        print(f"The modified content has been written to a {new_filename} ")
+        print(f"The modified content has been written to  {new_filename} ")
 
 except FileNotFoundError:
     print(f"Error: The file '{filename}' does not exist")
 except IOError:
-    print(f"Error: unable to read the filr name '{filename}'.")
+    print(f"Error: unable to read the file name '{filename}'.")
